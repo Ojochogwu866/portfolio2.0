@@ -1,11 +1,11 @@
 <template>
-<div class=" z-50  w-full fixed  shadow-nav">
+<div class=" z-50  w-full  shadow-nav">
     <div class=" w-10/12 flex py-2 justify-between items-center m-auto">
-    <div @click="goToPath" class=" cursor-pointer"><img class="w-14" src="@/assets/Images/logs.svg"/></div>
+    <div @click="goToPath" class=" sx:w-9 cursor-pointer"><img class="w-14" src="@/assets/Images/logs.svg"/></div>
      <div class=" grid grid-cols-3 gap-4">
-        <router-link  to="/blog"   class="l sx:px-0 px-8 text-sm text-border font-semibold">Blog</router-link>
-        <router-link  class="l text-sm sx:px-0 px-8 text-border font-semibold"  to="/Resume">Resume</router-link>
-        <router-link  class="l text-sm sx:px-0 px-8 text-border font-semibold"  to="/Projects">Projects</router-link>
+        <router-link  to="/blog"   class="l sx:px-0 px-8 text-sm text-border font-normal">Blog</router-link>
+        <router-link  class="l text-sm sx:px-0 px-8 text-border font-normal"  to="/Resume">Resume</router-link>
+        <router-link  class="l text-sm sx:px-0 px-8 text-border font-normal"  to="/Projects">Projects</router-link>
     </div> 
     <div class="sx:hidden flex justify-center items-center">
        <div class="i hover:border-4 hover:border-work rounded-full w-7 mr-8">  

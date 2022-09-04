@@ -2,10 +2,10 @@
   <div class=" flex flex-row justify-center">
         <div v-for="project in projects" :key="project.title">
           <div class=" mt-4 flex-col item-center justify-center">
-            <div class="font-semibold mt-1 text-xl text-border leading-10">~{{ project.title }}~</div>
+            <div class="font-semibold mt-1 text-xl sx:text-base text-border leading-10">~{{ project.title }}~</div>
              <div class="flex flex-row justify-center">
             </div>
-            <div class="text-sm text-left leading-8">
+            <div class="text-sm text-left mt-2 leading-7 sx:leading-6 line">
               {{ project.details }}
             </div>
           </div>
@@ -24,7 +24,9 @@ export default {
 }
 </script>
 <style scoped>
-
+.line{
+  font-size: 13px;
+}
 .el-carousel__item h3 {
   color: #475669;
   opacity: 0.75;

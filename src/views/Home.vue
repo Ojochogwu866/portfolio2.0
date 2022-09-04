@@ -1,5 +1,5 @@
 <template>
-  <div class=" flex flex-col pb-16">  
+  <div class=" flex flex-col">  
       <Landing/>
       <About class="" />
       <Experience/>
