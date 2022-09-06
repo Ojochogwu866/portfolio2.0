@@ -1,7 +1,7 @@
 <template>
 <div class="">
       <Nav/>
-<div class="w-10/12 pt-24 sx:pt-10 sx:w-11/12 m-auto ">
+<div class="w-10/12 sx:-mt-24 pt-24 sx:pt-10 sx:w-11/12 m-auto ">
  <div class=" sx:h-4/5">
            <el-carousel height="550px" 
            indicator-position="none" 

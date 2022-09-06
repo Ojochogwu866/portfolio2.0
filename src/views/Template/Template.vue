@@ -5,7 +5,7 @@
             <div class="font-semibold mt-1 text-xl sx:text-base text-border leading-10">~{{ project.title }}~</div>
              <div class="flex flex-row justify-center">
             </div>
-            <div class="text-sm text-left mt-2 leading-7 sx:leading-6 line">
+            <div class="text-sm text-border text-left mt-2 leading-7 sx:leading-6 line">
               {{ project.details }}
             </div>
           </div>
