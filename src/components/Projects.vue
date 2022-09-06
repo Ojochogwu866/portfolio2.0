@@ -5,13 +5,13 @@
         <div class="">
             <div class=" text-white text-left text-sm mt-4 leading-7 sx:leading-6 tracking-wide sx:tracking-normal font-normal line">My work-shelf, A cross-section of things i have built, Web Apps and Others</div>
             <div class=" mt-4">
-            <router-link class=" bg-work px-6 py-3 text-white text-xs  font-normal " to="/projects">Work Shelf</router-link>
+            <router-link class=" work bg-transparent border border-work rounded px-6 py-3 text-white text-xs  font-normal " to="/projects">Work Shelf</router-link>
             </div>
         </div>
          <div class="sx:mt-6 w-full flex flex-col justify-end items-end">
             <div class=" text-white text-left text-sm mt-4 leading-7 sx:leading-6 tracking-wide sx:tracking-normal font-normal line">Read my blog, you may find something useful there</div>
             <div class=" mt-4 ">
-            <router-link to="/blog" class=" bg-work px-6 py-3 text-white text-xs  font-normal " >Blog</router-link>
+            <router-link to="/blog" class=" work bg-transparent border border-work rounded px-6 py-3 text-white text-xs  font-normal " >Blog</router-link>
             </div>
          </div>
         </div>
@@ -21,5 +21,12 @@
 <style scoped>
 .line{
     font-size: 13px;
+}
+.work:hover{
+      transform-origin: left;
+      width:100%;
+      transform: scaleX(0);
+      background:  #394c98;
+      transition: 0.5s;
 }
 </style>

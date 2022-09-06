@@ -9,21 +9,33 @@ const routes = [
   {
     path: '/',
     name: 'Home',
+    meta:{
+      title:"Ojochogwu Dickson"
+    },
     component: Home
   },
   {
     path: '/Blog',
     name: 'Blog',
+    meta:{
+      title:"Blog"
+    },
     component: Blog
   },
   {
     path: '/Resume',
     name: 'Resume',
+    meta:{
+      title:"Resume"
+    },
     component: Resume
   },
   {
-    path: '/Projects',
-    name: 'Projects',
+    path: '/Work',
+    name: 'Work',
+    meta:{
+      title:"Work"
+    },
     component: Projects
   },
   {
@@ -36,5 +48,9 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
+})
+router.beforeEach((to, from, next)=>{
+  document.title = `${to.name} - ${process.env.VUE_APP_PORTFOLIO_NAME}`
+  next()
 })
 export default router

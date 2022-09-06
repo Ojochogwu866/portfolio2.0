@@ -3,20 +3,20 @@
     <div class=" w-10/12 flex py-2 justify-between items-center m-auto">
     <div @click="goToPath" class=" sx:w-9 cursor-pointer"><img class="w-14" src="@/assets/Images/logs.svg"/></div>
      <div class=" grid grid-cols-3 gap-4">
-        <router-link  to="/blog"   class="l sx:px-0 px-8 text-sm text-border font-normal">Blog</router-link>
-        <router-link  class="l text-sm sx:px-0 px-8 text-border font-normal"  to="/Resume">Resume</router-link>
-        <router-link  class="l text-sm sx:px-0 px-8 text-border font-normal"  to="/Projects">Projects</router-link>
+        <router-link active-class="active"  to="/blog"   class="l sx:px-0 px-8 text-sm text-border font-normal"><span>Blog</span></router-link>
+        <router-link active-class="active"  class="l text-sm sx:px-0 px-8 text-border font-normal"  to="/Resume"><span>Resume</span></router-link>
+        <router-link active-class="active"  class="l text-sm sx:px-0 px-8 text-border font-normal"  to="/Work"><span>Work</span></router-link>
     </div> 
     <div class="sx:hidden flex justify-center items-center">
-       <div class="i hover:border-4 hover:border-work rounded-full w-7 mr-8">  
+       <a target="_blank" href="https://github.com/Ojochogwu866" class="i hover:border-4 bg-navbg border-transparent  rounded-full w-7 mr-8">  
                <img  src="@/assets/Images/github.png" alt="github"/>
-       </div>
-       <div class="i hover:border-4 hover:border-work rounded-full w-7 mr-8">  
-               <img class=" "  src="@/assets/Images/twitter.png" alt="twitter"/>
-       </div>
-       <div class="i hover:border-4 hover:border-work rounded-full w-7 mr-8">  
+       </a>
+       <a target="_blank" href="https://twitter.com/ojochogwu_d" class="i hover:border-4 bg-navbg border-transparent  rounded-full w-7 mr-8">  
+               <img class=""  src="@/assets/Images/twitter.png" alt="twitter"/>
+       </a>
+       <a target="_blank" href="https://www.linkedin.com/in/ojochogwu-d-0838a312b/" class="i hover:border-4 bg-navbg border-transparent  rounded-full w-7 mr-8">  
                <img  src="@/assets/Images/linkedin.png" alt="linkedin"/>
-       </div>
+       </a>
     </div>
     </div>
 </div>
@@ -30,18 +30,57 @@ export default {
         }
 }
 </script>
-<style scoped>
+<style lang="scss" scoped>
+.l.active{
+      background: #45b2ff66;
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      width: 30%;
+      padding: 0;
+      height: 13px;
+      z-index: -100;
+      color: white;
+      box-shadow: 0 8px 32px 0 #45b2ff66;
+      backdrop-filter: blur( 4px );
+      -webkit-backdrop-filter: blur( 4px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+     
+}
+.l span::before{
+      content: '';
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      top: 26px;
+      transform-origin: left;
+      transform: scaleX(0);
+      background:  #9e59aa;
+      transition: 0.5s;
+      z-index: -1; 
+}
+.l span:hover::before{
+       transform: scaleX(1);
+}
 .shadow-nav{
 transition-delay: 1s;
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 }
 .i{
-       transition: .4s all;
        cursor: pointer;
 }
-.l:hover::before{
- background-color: red;
+.i:hover{
+        background: #45b2ff66;
+        border: 1px solid #45b2ff66;
+}
+@media screen and (max-width: 768px){
+       .l span::before{
+               top: 18px;
+       }
+       .l.active{
+               width: 50%;
+       }
 }
 
 </style>
