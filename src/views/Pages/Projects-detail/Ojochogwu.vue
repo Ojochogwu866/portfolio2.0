@@ -1,8 +1,8 @@
 <template>
 <div class="">
       <Nav/>
-<div class="w-10/12 pt-24 sx:-mt-24 sx:pt-10 sx:w-11/12 m-auto ">
- <div class=" sx:h-4/5">
+<div class="w-10/12 pt-24 sx:-mt-24  sx:w-11/12 m-auto ">
+ <div class=" sx:h-4/5 sx:-mt-5">
            <el-carousel height="550px" 
            indicator-position="none" 
            :interval="4000" arrow="always">

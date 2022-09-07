@@ -9,33 +9,25 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    meta:{
-      title:"Ojochogwu Dickson"
-    },
+    meta:{title: `${ process.env.VUE_APP_PORTFOLIO_NAME}`},
     component: Home
   },
   {
     path: '/Blog',
     name: 'Blog',
-    meta:{
-      title:"Blog"
-    },
+    meta:{title:"Blog - Ojochogwu Dickson"},
     component: Blog
   },
   {
     path: '/Resume',
     name: 'Resume',
-    meta:{
-      title:"Resume"
-    },
+    meta:{title:"My Resume - Ojochogwu Dickson "},
     component: Resume
   },
   {
     path: '/Work',
     name: 'Work',
-    meta:{
-      title:"Work"
-    },
+    meta:{title:"Work - Ojochogwu Dickson"},
     component: Projects
   },
   {
@@ -50,7 +42,7 @@ const router = createRouter({
   routes
 })
 router.beforeEach((to, from, next)=>{
-  document.title = `${to.name} - ${process.env.VUE_APP_PORTFOLIO_NAME}`
+  document.title = `${to.meta.title}`
   next()
 })
 export default router

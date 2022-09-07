@@ -7,28 +7,43 @@ const Details = [
   {
     path: '/work/clinikli',
     name: 'clinikli',
-    component: Clinikli
+    component: Clinikli,
+    meta:{
+      title:'clinikli - Ojochogwu Dickson'
+    }
   },
   {
     path: '/work/sonvisage',
     name: 'Sonvisage',
-    component: Sonvisage
+    component: Sonvisage,
+    meta:{
+      title:'sonvisage - Ojochogwu Dickson'
+    }
   },
   {
     path: '/work/vinca',
     name: 'Vinca',
-    component: Vinca
+    component: Vinca,
+      meta:{
+      title:'vinca - Ojochogwu Dickson'
+    }
   },
 
   {
     path:'/work/Fourthstream',
     name: 'Fourthstream',
-    component:FourthStream
+    component:FourthStream,
+    meta:{
+      title:'Fourthstream - Ojochogwu Dickson'
+    }
   },
   {
   path:'/work/ojochogwu',
   name:'ojochogwu',
-  component: Ojochogwu
+  component: Ojochogwu,
+    meta:{
+      title:'My-Portfolios - Ojochogwu Dickson'
+    }
   },
 ]
 
