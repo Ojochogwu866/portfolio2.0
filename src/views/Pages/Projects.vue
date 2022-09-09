@@ -2,7 +2,7 @@
 <div class="flex flex-col">
       <Nav/>
 <div class=" flex w-10/12 sx:w-11/12  m-auto justify-center items-center flex-col ">
-                <div class=" mt-20 text-base font-semibold text-border">/Workplaces</div>
+                <div class=" mt-20 text-base font-semibold text-border">/Work</div>
                   <div class=" text-xs mt-4 text-border">Please click on each card to read documentation and click on corresponding links to visit the web-app.</div>
       <div class=" w-full mt-6 m-auto justify-center  items-center grid grid-cols-3 sx:grid-cols-1 gap-4">
       <cards class=" cursor-pointer" v-for="(p, i) in filteredProducts" :key="i"  

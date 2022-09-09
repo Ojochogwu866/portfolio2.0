@@ -16,15 +16,21 @@
     "core-js": "^3.8.3",
     "dotenv": "^16.0.2",
     "element-plus": "^2.2.15",
+    "file-loader": "^6.2.0",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.12.6",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.1",
+    "jspdf": "^2.5.1",
     "postcss": "^7.0.39",
     "react": "^18.2.0",
     "register-service-worker": "^1.7.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "vue3-html2pdf": "^1.1.2",
+    "vuex": "^4.0.0",
+    "webpack-mix": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",

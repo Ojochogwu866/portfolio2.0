@@ -2,8 +2,10 @@
     <div class="w-full text-left m-auto h-full p-12 sx:p-4 flex flex-col justify-center items-center bg-gray-100">
         <div class=" w-full flex flex-col justify-end items-end">
             <a href="https://www.linkedin.com/in/ojochogwu-d-0838a312b/" target="_blank" class=""><img class="mr-2 w-4" src="@/assets/Images/linkedin(1).png"/></a>
-            <button class=" flex justify-center items-center"><img class="mr-2 w-3 h-3" src="@/assets/Images/download-circular-button.png"/>Download</button>
+            
+            <a  class=" flex justify-center items-center"><img class="mr-2 w-3 h-3" src="@/assets/Images/download-circular-button.png"/>Download</a>
         </div>
+        <div class="" >
             <div class="w-full  flex justify-center items-start flex-col">
                 <div class=" text-7xl sx:text-5xl text-work font-bold tracking-wide">Ojochogwu<br/> Dickson</div>
                 <div class=" text-lg font-light">Front-End Developer & Ux Engineer</div>
@@ -53,6 +55,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 </template>
 <style scoped>
@@ -62,19 +65,34 @@ ul li{
 </style>
 <script>
 import data from './data'
+import jsPDF from 'jspdf'
+import axios from 'axios'
 export default {
-    components:{data},
+    components:{data, jsPDF},
     setup() { 
     },
     data(){
         return{
-            data
-        }
+            data,
+            pdfLink:require("@/assets/Images/ojochogwu-resume.pdf"),
+       }
     },
     methods:{
             call () {
-      window.open('tel:+2347054700832')
-    },
-    }
+      window.open('tel:+2347054700832')},
+      downloadFile() {
+              axios({
+                    url: 'http://localhost:8800/ojochogwu-resume.pdf',
+                    method: 'GET',
+                    responseType: 'blob',
+                }).then((res) => {
+                     var FILE = window.URL.createObjectURL(new Blob([res.data])); 
+                     var docUrl = document.createElement('x');
+                     docUrl.href = FILE;
+                     docUrl.setAttribute('download', 'file.pdf');
+                     document.body.appendChild(docUrl);
+                     docUrl.click();
+                });
+},}
 }
 </script>
