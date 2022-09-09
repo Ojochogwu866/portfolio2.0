@@ -29,7 +29,7 @@ export default {
       },
       {
         name: '@Vinca',
-        period: 'April 2021 - November 2021 (Remote)',
+        period: 'Sept 2021 - November 2021 (Remote)',
         role: 'UI Engineer',
         term:'Part-Time Role',
         intro: `Built the entire Ui of the web-app, which would be handling appointment booking and clients management, alongside communication`,
