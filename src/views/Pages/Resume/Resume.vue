@@ -3,7 +3,7 @@
         <div class=" w-full flex flex-col justify-end items-end">
             <a href="https://www.linkedin.com/in/ojochogwu-d-0838a312b/" target="_blank" class=""><img class="mr-2 w-4" src="@/assets/Images/linkedin(1).png"/></a>
             
-            <a  class=" flex justify-center items-center"><img class="mr-2 w-3 h-3" src="@/assets/Images/download-circular-button.png"/>Download</a>
+            <!-- <a  class=" flex justify-center items-center"><img class="mr-2 w-3 h-3" src="@/assets/Images/download-circular-button.png"/>Download</a> -->
         </div>
         <div class="" >
             <div class="w-full  flex justify-center items-start flex-col">
