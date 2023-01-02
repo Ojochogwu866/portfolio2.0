@@ -2,7 +2,7 @@
   <div class="grid grid-cols-2 sx:w-11/12 sx:flex flex-col  gap-3 w-10/12 m-auto justify-center items-center mt-28">
   <div class=" flex flex-col text-left w-full">
   <div class=" text-5xl font-bold tracking-wide sx:text-3xl text-header">Engineering</div>
-      <div class=" text-white text-sm mt-4 leading-7 sx:leading-6 tracking-wide sx:tracking-normal font-normal line">
+      <div class=" text-white text-2xl mt-4 leading-7 sx:leading-6 tracking-wide sx:tracking-normal font-normal line">
       In building javascript applications, i have taken time to equip myself with the right tools and knowldege necessary to facilitate building interfaces for whatsoever component and related cases. This does'nt exclude keen focus on implementing designs in it's best layouts  — pixel perfect designs.
       I'm very much interested in building for open source uses and that also serves as a major flag when building an application.
       </div>
