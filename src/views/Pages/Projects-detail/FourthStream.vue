@@ -36,7 +36,8 @@ export default {
     projects: [
       {
         title: 'FourthStream',
-        details: 'Building a website purely in HTML, CSS, Jquerry and VanillaJs is such a nice flex and great tool. Fouthstream was the first web app i built officially, not in a personal developement or test mode. I actually built with sketches as Ui design, after getting the idea from the owners and i did pretty great. Implementing the Ui from the sketches i drew, every detail noted and carefully followed, and a fully mobile responsive website where users can regiser their accounts to trade with forex brokers. It was meant to be a web app that would enable people register on the platform, invest with the owners, get fixed returns after a particular number of days, unfortunatelly the owners could not conyinue keeping up and the project was terminated.',  
+        details: 'Building a website purely in HTML, CSS, Jquerry and VanillaJs is such a nice flex and great tool. Fouthstream was the first web app i built officially, not in a personal developement or test mode. I actually built with sketches as Ui design, after getting the idea from the owners and i did pretty great. Implementing the Ui from the sketches i drew, every detail noted and carefully followed, and a fully mobile responsive website where users can regiser their accounts to trade with forex brokers. It was meant to be a web app that would enable people register on the platform, invest with the owners, get fixed returns after a particular number of days, unfortunatelly the owners could not conyinue keeping up and the project was terminated.', 
+        stack: "HTML & CSS, Vanilla JavaScript", 
       },
     ],
   }),
