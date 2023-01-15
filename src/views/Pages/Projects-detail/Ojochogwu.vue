@@ -42,7 +42,7 @@ export default {
         title: "Ojochogwu  — My Portfolios",
         details:
           " This is actually my second portfolio, had a previous one which Looked quite cool as well.",
-        stack: "ReactJs, CSS",
+        stack: "ReactJs, CSS, JavaScript",
       },
     ],
   }),
