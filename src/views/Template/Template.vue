@@ -16,13 +16,16 @@
         <div class="text-sm text-border text-left mt-3 sx:leading-6">
           Major Language & Libraries: {{ project.stack }}
         </div>
-        <div class="">
-          <a target="_blank" :href="project.url"
+        <div class="flex mt-2 w-full">
+          <a
+            class="flex w-full justify-start text-sm gap-2 text-white items-center"
+            target="_blank"
+            :href="project.url"
             ><img
-              class="w-4"
+              class="w-5 h-5"
               src="@/assets/Images/link.png"
               alt="link"
-            />VIEW</a
+            />view</a
           >
         </div>
       </div>
