@@ -29,27 +29,31 @@
       </div>
     </div>
     <div
-      class="sx:w-full sx:mt-10 w-1/2 m-auto flex flex-col justify-center items-center"
+      class="sx:w-full sx:mt-10 w-1/2 m-auto flex flex-col justify-center items-left"
     >
-      <img class="w-full relative" src="@/assets/Images/sft-2.svg" alt="" />
-      <div class="text-left w-full -mt-36 flex flex-col">
+      <div class="flex justify-center items-center">
+        <img class="w-full relative" src="@/assets/Images/sft-2.svg" alt="" />
+      </div>
+      <div
+        class="text-left w-full -mt-36 flex justify-center items-center flex-col"
+      >
         <div
           class="text-xl w-max bg-header bg-opacity-30 p-2 mt-1 text-gray-400 font-bold"
         >
           CLINIKLI
         </div>
         <div
-          class="text-xl ml-18 w-max bg-header bg-opacity-30 p-2 mt-1 text-gray-400 font-bold"
+          class="text-xl ml-44 w-max bg-header bg-opacity-30 p-2 mt-1 -mb-6 text-gray-400 font-bold"
         >
           SONVISAGE
         </div>
         <div
-          class="text-xl vn bg-header rotate-90 w-max bg-opacity-30 p-2 mt-1 text-gray-400 font-bold"
+          class="text-xl vn bg-header w-max bg-opacity-30 p-2 -mt-2 text-gray-400 font-bold"
         >
           VINCA
         </div>
         <div
-          class="text-xl mt-4 bg-header w-max bg-opacity-30 p-2 mt-1 text-gray-400 font-bold"
+          class="text-xl bg-header w-max bg-opacity-30 p-2 mt-4 text-gray-400 font-bold"
         >
           FOURTHSTREAM CAPITAL
         </div>
