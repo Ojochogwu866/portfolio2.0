@@ -44,6 +44,7 @@ export default {
         details:
           " Working on Sonvisage is the first time i would be programming in Vue. The only things i had handy were the framework documentation, youtube videos google to wrap up a project in quite a short interval. It was quite difficult, i must admit, jumping on a real-time project, that is large and being expected to deliver a completely wrapped up project, i really found out i could work under pressure. I was able to rebuild major components of the existing interface before picking up my module which was a core in the entire build. Implementing a client interface that would be handling a large quantity of confidential data majorly health records requires expertise in implementing Navigation guards, error identification on data input to ease user experience when filling form data, User access authentications and user verification on the client side. In addition i was able to finish the build, making use of necessary libraries for getting live data, data manipulation for displaying on charts and interpretation. Finally, i carefully was able to implement based on the design requirement, every layout as intended, fonts, cards, navigations and functional responses, and after satisfactory Beta-tests, launch for full usage in necessary quaters.",
         stack: "VueJs, Tailwind-Css, JavaScript ",
+        url: "https://sonvisage.com",
       },
     ],
   }),

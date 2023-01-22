@@ -13,8 +13,17 @@
         >
           {{ project.details }}
         </div>
-        <div class="text-sm text-white text-left mt-3 sx:leading-6">
+        <div class="text-sm text-border text-left mt-3 sx:leading-6">
           Major Language & Libraries: {{ project.stack }}
+        </div>
+        <div class="">
+          <a target="_blank" :href="project.url"
+            ><img
+              class="w-4"
+              src="@/assets/Images/link.png"
+              alt="link"
+            />VIEW</a
+          >
         </div>
       </div>
     </div>

@@ -41,6 +41,7 @@ export default {
         details:
           " Vinca is a minimalistic hospital web app i built in react for hospital booking appointments, were healthcare seekers in need of specialized services can easily reach out to the doctors by just using the appointment booking form on the app. It is quite a minimalistic app, that has two major sections, the open client interface and the admin interface which is where bulk of the functionality of the open user interface is controlled. The admin portal collects the appointment or contact forms, sends a response, checks out total appointments per day or whatever intervals, get user details for futher communications. Itss by far most one of my most interesting React projects i have worked on, delivering pixel perfect layouts, scalable functionality and optimum speed performance, at the end of the build, i had to do a number of unit test in order to scissor out bulk of unecessary chunks that could affect the speed of the app, thereby interferring with good user experience and i was able to cut out about 4.29mb off the initial build.",
         stack: "ReactJS, CSS, JavaScript ",
+        url: "https://vincahospital.com",
       },
     ],
   }),

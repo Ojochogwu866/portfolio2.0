@@ -44,6 +44,7 @@ export default {
         details:
           " Clinikli is a web app meant to connect healthcare providers with healthcare seekers, enhancing easy and fast method for people in need of getting in touch with professionals across different fields of health endeavours. This should be probably the biggest projects i have worked on, alongside with the backend engineer and the Ui designer. This is really one of the best platforms i have examined my professional experience, scaling through pixel perfect implementation, performance testing, building lightweight applications and building for optimum performance with respect to user experience. Working on clinikli was my inroduction to using Tailwind CSS, absolutely my first time and i was really impressed by the features it offered in enhancing the size reduction of the web app, thereby giving room to speed and minimal size of the entire app. Clinikli was built with major focus on client interaction as a focus since more of the engagements on the app would be involving people trying to connect with each other.                                                                                        Finally, i was able to deliver clean ui, with pixel perfect layout an clean sheets fully, shipped highly interactive web app that would enable quick client interaction free of Ux hassles.",
           stack: "VueJs, Tailwind-Css, JavaScript ",
+          url:"https://clinikli.com"
       },
     ],
   }),
