@@ -158,7 +158,9 @@ export default {
 @media only screen and (max-width: 768px) {
   .left-0,
   .dev {
-    overflow-x: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
     scrollbar-width: none;
   }
 }
