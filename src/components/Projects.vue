@@ -1,8 +1,6 @@
 <template>
-  <div class="flex flex-col sx:w-11/12 w-10/12 mt-36 text-left m-auto">
-    <div
-      class="text-5xl sx:text-3xl sx:mt-20 font-bold tracking-wide text-header"
-    >
+  <div class="flex flex-col sx:w-11/12 w-10/12 mt-18 text-left m-auto">
+    <div class="text-5xl sx:text-3xl font-bold tracking-wide text-header">
       Look-Up
     </div>
     <div class="sx:flex flex-col grid grid-cols-2 gap-2">

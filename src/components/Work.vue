@@ -2,9 +2,9 @@
   <div
     class="flex flex-row sx:flex-col h-screen sx:w-11/12 w-10/12 m-auto justify-center items-center mt-36"
   >
-    <div class="flex flex-col text-left sx:w-full w-2/4 sx:mt-28 m-auto">
+    <div class="flex flex-col text-left sx:w-full w-2/4 m-auto">
       <div
-        class="text-5xl font-bold tracking-wide w-2/3 sx:text-3xl text-header"
+        class="text-5xl font-bold tracking-wide -mt-10 w-2/3 sx:text-3xl text-header"
       >
         In the last few years;
       </div>
@@ -35,7 +35,7 @@
         <img class="w-full relative" src="@/assets/Images/sft-2.svg" alt="" />
       </div>
       <div
-        class="text-left w-full -mt-36 flex justify-center items-center flex-col"
+        class="text-left w-full sx:-mt-28 -mt-36 flex justify-center items-center flex-col"
       >
         <div
           class="text-xl w-max bg-header bg-opacity-30 p-2 mt-1 text-gray-400 font-bold"
