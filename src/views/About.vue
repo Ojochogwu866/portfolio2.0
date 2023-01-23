@@ -161,6 +161,7 @@ export default {
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
+    overflow-x: scroll;
     scrollbar-width: none;
   }
 }
