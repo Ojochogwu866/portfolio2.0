@@ -71,30 +71,30 @@ export default {
   <div
     class="flex flex-row sx:flex-col w-10/12 sx:w-11/12 m-auto justify-center items-center sx:mt-12 mt-36"
   >
-    <div class="flex sx:w-full w-2/5 m-auto">
+    <div class="flex sx:w-full w-1/3 m-auto">
       <div
         class="text-white text-left text-sm mt-4 leading-7 sx:leading-6 tracking-wide sx:tracking-normal font-normal line"
       >
-        I am experienced in crafting high quality user interface, design systems
-        and carrying out pixel perfect implementations. I am User experience
-        Engineer, who has gained expertise by implementing and transforming
-        ideas and designs into concrete forms. I have spent the last couple of
-        years bulding this interactive apps that fascilitate great engagements.
-        I have 3+ years of experience as a Frontend Engineer and 1+ years in
-        Solidity. I have worked with startups, collaborated with other
-        developers in contributing to existing projects.
+        I design and implement high quality web-based javascript applications
+        that are scalable and user friendly, by applying my knowledge in usage
+        of my tech skills, stack-wise, and all other required knowledge and
+        experience. I have about 3 years of experience in doing this repeatedly
+        although in different organizations, and i have helped each of this
+        organization scale major problems they are trying to solve on their
+        client interaction, hence boosting their coperate productivity and
+        enhancing company wide growth accross all teams.
       </div>
     </div>
     <div
-      class="sx:w-full w-3/5 m-auto flex flex-col items-center justify-center"
+      class="sx:w-full w-2/3 m-auto flex flex-col items-center justify-center"
     >
       <div
-        class="left-0 w-full ml-6 text-header text-left tracking-tighter font-bold opacity-30"
+        class="left-0 ml-6 text-header text-left tracking-tighter font-bold opacity-30"
       >
         – FRONTEND
       </div>
       <div
-        class="left-0 dev w-full ml-6 text-header text-left tracking-tighter font-bold opacity-30"
+        class="left-0 dev ml-6 w-full text-header text-left tracking-tighter font-bold opacity-30"
       >
         –DEVELOPER
       </div>

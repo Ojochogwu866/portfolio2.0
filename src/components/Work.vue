@@ -11,21 +11,17 @@
       <div
         class="text-white text-sm mt-4 leading-7 sx:leading-6 tracking-wide sx:tracking-normal sx:font-normal line"
       >
-        I have been oppurtuned to put my skill to practice by building for
-        different companies and organizations as a Frontend engineer with indebt
-        ability to transform literal designs into functional UI's and scalable
-        applications optimized for best performance.
+        In the last 3+ years, i have built from scratch and contributed to
+        web-based javascript applications, writing highly performant code and
+        designing pixel perfect dynamic web applications, that handles hundred
+        of thousands of users and high data volume.
         <br class="mb-6" />
-        I had the first real-time oppurtunity to build for a financial capital
-        company - Fourthstream capital in 2020 on a contract job which lasted a
-        few Months, after which i have been oppurtuned to work in startups &
-        establishments majorly healthcare startups as a UX Developer between
-        2020 - 2022.
-        <br class="mb-6" />
-        Haven tried my hands on writing Solidity & Rust, i can relatably rate my
-        expertise even if yet to have a first time contract or Job, i have
-        solved a number of problems blockchain related by trying out my
-        knowldege in the field.
+        I have built have worked as a Frontend engineer in about four startups,
+        building their user interface from scratch, and contributed to other
+        projects, by writing code and carrying out code reviews. <br />In the
+        last one year, i have been involved in carrying out mentorship for
+        junior developers in javascript, helping to build their knowledge and
+        exposition on the subject.
       </div>
     </div>
     <div
