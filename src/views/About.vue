@@ -89,12 +89,12 @@ export default {
       class="sx:w-full w-2/3 m-auto flex flex-col items-center justify-center"
     >
       <div
-        class="left-0 ml-6 text-header text-left tracking-tighter font-bold opacity-30"
+        class="left-0 ml-6 w-full text-header text-left tracking-tighter font-bold opacity-30"
       >
         – FRONTEND
       </div>
       <div
-        class="left-0 dev ml-6 w-full text-header text-left tracking-tighter font-bold opacity-30"
+        class="left-0 ml-6 w-full text-header text-left tracking-tighter font-bold opacity-30"
       >
         –DEVELOPER
       </div>
