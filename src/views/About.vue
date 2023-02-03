@@ -94,7 +94,7 @@ export default {
         – FRONTEND
       </div>
       <div
-        class="left-0 ml-6 w-full text-header text-left tracking-tighter font-bold opacity-30"
+        class="left-0 dev ml-6 w-full text-header text-left tracking-tighter font-bold opacity-30"
       >
         –DEVELOPER
       </div>
@@ -156,8 +156,7 @@ export default {
   -ms-transform: rotateY(180deg);
 }
 @media only screen and (max-width: 768px) {
-  .left-0,
-  .dev {
+  .left-0 {
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
