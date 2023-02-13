@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col">
+  <div
+    class="flex flex-col overflow-y-scroll overflow-x-hidden scrollbar scrollbar-none"
+  >
     <Nav />
     <div
       class="flex w-10/12 sx:w-11/12 m-auto justify-center items-center flex-col"
