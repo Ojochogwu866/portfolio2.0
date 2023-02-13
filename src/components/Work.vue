@@ -1,57 +1,73 @@
 <template>
   <div
-    class="flex flex-row sx:flex-col h-screen sx:w-11/12 w-10/12 m-auto justify-center items-center mt-36"
+    class="flex h-screen flex-row sx:flex-col sx:mt-10 sx:w-11/12 w-10/12 mx-auto items-center"
   >
-    <div class="flex flex-col text-left sx:w-full w-2/4 m-auto">
+    <div class="flex flex-col text-left sx:w-full w-2/4">
       <div
-        class="text-5xl font-bold tracking-wide -mt-10 w-2/3 sx:text-3xl text-header"
+        class="text-5xl font-bold tracking-wide w-2/3 sx:text-3xl text-header"
       >
         In the last few years;
       </div>
-      <div
-        class="text-white text-sm mt-4 leading-7 sx:leading-6 tracking-wide sx:tracking-normal sx:font-normal line"
+      <p
+        class="text-white text-sm leading-7 sx:leading-6 tracking-wide sx:tracking-normal sx:font-normal line"
       >
         In the last 3+ years, i have built from scratch and contributed to
         web-based javascript applications, writing highly performant code and
         designing pixel perfect dynamic web applications, that handles hundred
         of thousands of users and high data volume.
         <br class="mb-6" />
-        I have built have worked as a Frontend engineer in about four startups,
-        building their user interface from scratch, and contributed to other
-        projects, by writing code and carrying out code reviews. <br />In the
-        last one year, i have been involved in carrying out mentorship for
-        junior developers in javascript, helping to build their knowledge and
-        exposition on the subject.
-      </div>
+        I have worked as a Frontend engineer in about four startups, building
+        their user interface from scratch, and contributed to other projects, by
+        writing code and carrying out code reviews. <br />In the last one year,
+        i have been involved in mentoring junior developers in javascript,
+        training and helping to build their knowledge and exposition on the
+        understanding javascript from scratch to implementation.
+      </p>
     </div>
     <div
-      class="sx:w-full sx:mt-10 w-1/2 m-auto flex flex-col justify-center items-left"
+      class="sx:w-full lik ml-6 sx:ml-0 sx:mt-6 w-2/5 mx-auto flex justify-center items-center"
     >
-      <div class="flex justify-center items-center">
-        <img class="w-full relative" src="@/assets/Images/sft-2.svg" alt="" />
+      <div class="vn text-[30px] sx:text-[20px] font-semibold">
+        /WORK<span></span>
       </div>
-      <div
-        class="text-left w-full sx:-mt-28 -mt-36 flex justify-center items-center flex-col"
-      >
+      <div class="text-left w-full flex justify-center items-center flex-col">
         <div
-          class="text-xl w-max bg-header bg-opacity-30 p-2 mt-1 text-gray-400 font-bold"
+          class="text-[14px] w-full sx:mt-2 flex justify-center items-center text-left bg-opacity-30 p-2 mt-1 animate-pulse text-header opacity-30 font-bold"
         >
-          CLINIKLI
+          <p>CLINIKLI</p>
+          <div class="w-full border-2 h-0 border-header opacity-30 ml-2" />
+          <span
+            class="h-5 w-5 border-header bg-header opacity-30 rounded-full ml-1"
+          />
         </div>
         <div
-          class="text-xl ml-44 w-max bg-header bg-opacity-30 p-2 mt-1 -mb-6 text-gray-400 font-bold"
+          class="text-[14px] mt-4 sx:mt-2 w-full flex justify-center items-center text-left bg-opacity-30 p-2 animate-pulse text-header opacity-30 font-bold"
         >
-          SONVISAGE
+          <span
+            class="h-5 w-5 border-header bg-header opacity-30 rounded-full"
+          />
+          <div class="w-full border-2 h-0 border-header opacity-30 ml-1" />
+
+          <p class="ml-2">SONVISAGE</p>
         </div>
         <div
-          class="text-xl vn bg-header w-max bg-opacity-30 p-2 -mt-2 text-gray-400 font-bold"
+          class="text-[14px] sx:mt-2 w-full flex justify-center items-center text-left bg-opacity-30 p-2 mt-4 animate-pulse text-header opacity-30 font-bold"
         >
-          VINCA
+          <p>VINCA</p>
+          <div class="w-full border-2 h-0 border-header opacity-30 ml-2" />
+          <span
+            class="h-5 w-5 border-header bg-header opacity-30 rounded-full ml-1"
+          />
         </div>
         <div
-          class="text-xl bg-header w-max bg-opacity-30 p-2 mt-4 text-gray-400 font-bold"
+          class="text-[14px] sx:mt-2 mt-4 w-full flex justify-center items-center text-left bg-opacity-30 p-2 animate-pulse text-header opacity-30 font-bold"
         >
-          FOURTHSTREAM CAPITAL
+          <span
+            class="h-5 w-5 border-header bg-header opacity-30 rounded-full"
+          />
+          <div class="w-full border-2 h-0 border-header opacity-30 ml-1" />
+
+          <p class="ml-2">FOURTHSTREAM</p>
         </div>
       </div>
     </div>
@@ -72,5 +88,8 @@ export default {
 }
 .vn {
   transform: rotate(270deg);
+}
+.lik {
+  font-family: Open Sauce, arial, sans-serif;
 }
 </style>

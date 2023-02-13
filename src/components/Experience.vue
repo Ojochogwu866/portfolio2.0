@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid grid-cols-2 sx:w-11/12 sx:flex flex-col gap-3 w-10/12 m-auto justify-center items-center mt-28"
+    class="grid h-screen grid-cols-2 sx:w-11/12 sx:flex flex-col gap-3 w-10/12 sx:mt-40 mx-auto items-center"
   >
     <div class="flex flex-col text-left w-full">
       <div class="text-5xl font-bold tracking-wide sx:text-3xl text-header">
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div
-      class="flex flex-col justify-start items-end text-left mt-56 sx:mt-10 sx:w-4/4 w-3/4"
+      class="flex flex-col justify-start items-end text-left mt-56 sx:mt-16 sx:w-4/4 w-3/4"
     >
       <div class="text-5xl font-bold tracking-wide sx:text-3xl text-header">
         Stack
@@ -42,22 +42,22 @@
           />TypeScript
         </div>
         <div class="flex justify-start items-center text-xs font-normal">
-          <img
-            class="mr-3 w-2"
-            src="@/assets/Images/play-button(1).png"
-          />Solidity
+          <img class="mr-3 w-2" src="@/assets/Images/play-button(1).png" />
         </div>
         <div class="flex justify-start items-start text-xs font-normal">
-          <img class="mr-3 w-2" src="@/assets/Images/play-button(1).png" />Rust
+          <img class="mr-3 w-2" src="@/assets/Images/play-button(1).png" />Vite
         </div>
         <div class="flex justify-start items-center text-xs font-normal">
           <img
             class="mr-3 w-2"
             src="@/assets/Images/play-button(1).png"
-          />ReactJs
+          />ReactJs–(NextJs)
         </div>
         <div class="flex justify-start items-center text-xs font-normal">
-          <img class="mr-3 w-2" src="@/assets/Images/play-button(1).png" />VueJs
+          <img
+            class="mr-3 w-2"
+            src="@/assets/Images/play-button(1).png"
+          />VueJs–(NuxtJs)
         </div>
         <div class="flex justify-start items-center text-xs font-normal">
           <img
