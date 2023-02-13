@@ -3,7 +3,7 @@
     <div class="w-10/12 flex py-2 justify-between items-center m-auto">
       <div @click="goToPath" class="sx:w-9 cursor-pointer">
         <div class="text-sm text-left sx:px-0 px-8 text-border font-normal">
-          –OJOCHOGWU
+          OJOCHOGWU
         </div>
       </div>
       <div class="grid grid-cols-3 gap-4">
@@ -82,7 +82,7 @@ export default {
   position: absolute;
   width: 14px;
   height: 14px;
-  top: 22px;
+  top: 16px;
   transform-origin: left;
   transform: scaleX(0);
   background: #9e59aa;
