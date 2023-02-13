@@ -48,7 +48,7 @@ export default {
     },
   ],
   technologies: [
-    "ReactJs, NodeJs, VueJs, Solidity, Rust, JavaScript, HTML & CSS(SCSS), Technical Writing, Open Source, GraphQl, Figma & Sketch",
+    "ReactJs–(NextJs), NodeJs, VueJs–(NuxtJs), JavaScript(ES6+), HTML & CSS(SCSS), Technical Writing, Open Source, GraphQl, Figma & Sketch",
   ],
   others: [
     "Performance Optimization, End-To-End Testing, Design Systems, Build Automation, Progressive Enhancement",

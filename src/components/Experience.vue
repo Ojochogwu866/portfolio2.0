@@ -41,9 +41,6 @@
             src="@/assets/Images/play-button(1).png"
           />TypeScript
         </div>
-        <div class="flex justify-start items-center text-xs font-normal">
-          <img class="mr-3 w-2" src="@/assets/Images/play-button(1).png" />
-        </div>
         <div class="flex justify-start items-start text-xs font-normal">
           <img class="mr-3 w-2" src="@/assets/Images/play-button(1).png" />Vite
         </div>
