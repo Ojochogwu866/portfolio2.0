@@ -1,8 +1,8 @@
 <template>
   <div class="">
     <Nav />
-    <div class="w-10/12 pt-24 sx:-mt-24 sx:w-11/12 m-auto">
-      <div class="sx:h-4/5 sx:-mt-5">
+    <div class="w-10/12 pt-24 sx:-mt-40 sx:w-11/12 mx-auto">
+      <div class="sx:h-4/5 sx:-mt-5 sx:mx-auto">
         <el-carousel
           height="550px"
           indicator-position="none"
@@ -14,7 +14,7 @@
             :key="index"
           >
             <img
-              class="flex object-contain h-128 sx:h-5/5 w-full"
+            class="flex object-contain h-128 sx:h-full w-full"
               :src="company.image"
               alt=""
             />
