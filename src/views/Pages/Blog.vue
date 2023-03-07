@@ -5,26 +5,28 @@
       class="flex w-10/12 sx:w-11/12 m-auto justify-center items-center flex-col"
     >
       <div class="mt-20 text-base font-semibold text-border">/Blog</div>
-      <div
-        class="w-3/4 sx:w-full sx:px-2 flex text-left flex-col mb-10 mt-6 sx:mt-3 m-auto px-6 py-3 bg-bg shadow-nav rounded"
-        v-for="item in result"
-        :key="item.id"
-      >
+      <div class="grid sx:flex flex-col justify-center grid-cols-2 w-full">
         <div
-          class="text-base text-border sx:text-sm font-semibold tracking-wide"
+          class="w-[90%] sx:w-full sx:px-2 flex text-left flex-col mb-10 mt-6 sx:mt-3 m-auto px-6 py-3 bg-bg shadow-nav rounded"
+          v-for="item in result"
+          :key="item.id"
         >
-          {{ item.title }}
-        </div>
-        <div
-          class="text-white text-sm sx:text-xs mt-3 leading-7 sx:leading-6 tracking-wide sx:tracking-normal font-normal line"
-        >
-          {{ item.brief }}
-        </div>
-        <div
-          @click="openUrl(`https://od.hashnode.dev/${item.slug}`)"
-          class="cursor-pointer mt-4 sx:mt-2 pb-2 text-xs text-border border-b border-work w-auto"
-        >
-          Read full article
+          <div
+            class="text-base text-border sx:text-sm font-semibold tracking-wide"
+          >
+            {{ item.title }}
+          </div>
+          <div
+            class="text-white text-sm sx:text-xs mt-3 leading-7 sx:leading-6 tracking-wide sx:tracking-normal font-normal line"
+          >
+            {{ item.brief }}
+          </div>
+          <div
+            @click="openUrl(`https://od.hashnode.dev/${item.slug}`)"
+            class="cursor-pointer mt-4 sx:mt-2 pb-2 text-xs text-border border-b border-work w-auto"
+          >
+            Read full article
+          </div>
         </div>
       </div>
     </div>
