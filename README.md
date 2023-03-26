@@ -28,9 +28,7 @@ npm run build
 ```
 npm run test:unit
 ```
+##License
+Copyright (c) 2022-present Ojochogwu Dickson. All rights reserved.
 
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-# portfolio2.0
+The code, design and articles in this repository are intellectual property of the individual mentioned above (unless otherwise stated) and as such CANNOT be copied, modified, sublicensed or redistributed without permission from the author.
