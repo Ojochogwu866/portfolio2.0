@@ -1,4 +1,4 @@
-# ojochogwu3.0
+# ojochogwu-dickson
 
 Personal portfolio.
 This Repo houses the codebase that powers my Developer portfolio.
