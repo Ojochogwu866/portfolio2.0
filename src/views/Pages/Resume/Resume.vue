@@ -59,7 +59,7 @@
           </div>
           <div class="mt-3 border-b border-work w-fit pb-5">
             <p class="text-sm leading-7">
-              Highly skilled JavaScript developer with over 2 years of
+              Highly skilled JavaScript developer with about 3 years of
               experience. Proficient in core JavaScript, frameworks,
               pixel-perfect UI development, and building RESTful APIs with
               Node.js. Proven track record of delivering high-quality solutions
