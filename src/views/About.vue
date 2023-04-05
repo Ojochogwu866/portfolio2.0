@@ -4,17 +4,16 @@
   >
     <div class="flex sx:w-full w-1/3">
       <div
-        class="text-white text-left text-sm leading-7 sx:leading-6 tracking-wide sx:tracking-normal font-normal line"
+        class="text-border text-left text-[14px] leading-8 sx:leading-7 tracking-wide sx:tracking-normal font-normal line"
       >
-        I design and implement high quality web-based javascript applications
-        that are scalable and user friendly, by applying my knowledge in usage
-        of my tech skills, stack-wise, and all other required knowledge and
-        experience. I have about 3 years of experience in doing this repeatedly
-        although in different organizations, and i have helped each of this
-        organization scale major problems they are trying to solve on their
-        client interactions with UI and accessibility, hence boosting their
-        coperate productivity and enhancing company wide growth accross all
-        teams.
+        Highly skilled JavaScript developer with about 3 years of experience.
+        Proficient in core JavaScript, frameworks, pixel-perfect UI development,
+        and building RESTful APIs with Node.js. Proven track record of
+        delivering high-quality solutions on time. Passionate about ongoing
+        learning and professional development. I design and implement high
+        quality web-based javascript applications that are scalable and user
+        friendly, by applying my knowledge in usage of my tech skills,
+        stack-wise, and all other required knowledge and experience.
       </div>
     </div>
     <div class="sx:w-full w-2/3">
@@ -63,9 +62,7 @@ export default {
   cursor: pointer;
   top: 0;
 }
-.line {
-  font-size: 13px;
-}
+
 .overlay:hover {
   opacity: 0;
 }

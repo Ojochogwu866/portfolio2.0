@@ -9,7 +9,7 @@
         In the last few years;
       </div>
       <p
-        class="text-white text-sm leading-7 sx:leading-6 tracking-wide sx:tracking-normal sx:font-normal line"
+        class="text-border text-[14px] leading-8 sx:leading-7 tracking-wide sx:tracking-normal sx:font-normal line"
       >
         In the last 3+ years, i have built from scratch and contributed to
         web-based javascript applications, writing highly performant code and
@@ -83,9 +83,6 @@ export default {
 };
 </script>
 <style scoped>
-.line {
-  font-size: 13px;
-}
 .vn {
   transform: rotate(270deg);
 }

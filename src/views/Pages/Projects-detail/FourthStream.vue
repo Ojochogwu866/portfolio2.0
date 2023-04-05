@@ -42,8 +42,7 @@ export default {
       {
         title: "FourthStream",
         details:
-          "Building a website purely in HTML, CSS, Jquerry and VanillaJs is such a nice flex and great tool. Fouthstream was the first web app i built officially, not in a personal developement or test mode. I actually built with sketches as Ui design, after getting the idea from the owners and i did pretty great. Implementing the Ui from the sketches i drew, every detail noted and carefully followed, and a fully mobile responsive website where users can regiser their accounts to trade with forex brokers. It was meant to be a web app that would enable people register on the platform, invest with the owners, get fixed returns after a particular number of days, unfortunatelly the owners could not conyinue keeping up and the project was terminated.",
-        stack: "HTML & CSS, Vanilla JavaScript",
+          "At Fourth stream, I worked as a frontend developer, built and manintained the user interface for investors. Fourthstream is a financial service company, handling and processing investments by users, and ROI in due date. I worked with the backend develper to enure a perfectly working application. The web app was built majorly in Javascript, and it involved major technicalities, since it's major function had to do with payment and ROI,  and integration with payment infracstructures. Fully built and maintained for the time been, of a successful launch.",
         url: "https://fourthstreamcapital.com",
       },
     ],

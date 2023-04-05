@@ -106,7 +106,7 @@ export default {
 }
 @media screen and (max-width: 768px) {
   .l span::before {
-    top: 18px;
+    top: 12px;
   }
   .l.active {
     width: 50%;

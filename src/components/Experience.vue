@@ -7,7 +7,7 @@
         Engineering
       </div>
       <div
-        class="text-white text-2xl mt-4 leading-7 sx:leading-6 tracking-wide sx:tracking-normal font-normal line"
+        class="text-border text-[14px] mt-4 leading-8 sx:leading-7 tracking-wide sx:tracking-normal font-normal line"
       >
         <br />
         My tech skills are grinded for writing highly scalable and maintainable
@@ -24,7 +24,7 @@
       <div class="text-5xl font-bold tracking-wide sx:text-3xl text-header">
         Stack
       </div>
-      <div class="text-white text-left grid grid-cols-2 gap-2 mt-4">
+      <div class="text-border text-left grid grid-cols-2 gap-2 mt-4">
         <div class="flex justify-start items-center text-xs font-normal">
           <img class="w-2 mr-3" src="@/assets/Images/play-button(1).png" /> HTML
           & CSS (SCSS)
@@ -76,8 +76,4 @@ export default {
   setup() {},
 };
 </script>
-<style scoped>
-.line {
-  font-size: 13px;
-}
-</style>
+<style scoped></style>

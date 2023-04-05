@@ -14,7 +14,7 @@
             :key="index"
           >
             <img
-            class="flex object-contain h-128 sx:h-full w-full"
+              class="flex object-contain h-128 sx:h-full w-full"
               :src="company.image"
               alt=""
             />
@@ -42,8 +42,7 @@ export default {
       {
         title: "Sonvisage",
         details:
-          " Working on Sonvisage is the first time i would be programming in Vue. The only things i had handy were the framework documentation, youtube videos google to wrap up a project in quite a short interval. It was quite difficult, i must admit, jumping on a real-time project, that is large and being expected to deliver a completely wrapped up project, i really found out i could work under pressure. I was able to rebuild major components of the existing interface before picking up my module which was a core in the entire build. Implementing a client interface that would be handling a large quantity of confidential data majorly health records requires expertise in implementing Navigation guards, error identification on data input to ease user experience when filling form data, User access authentications and user verification on the client side. In addition i was able to finish the build, making use of necessary libraries for getting live data, data manipulation for displaying on charts and interpretation. Finally, i carefully was able to implement based on the design requirement, every layout as intended, fonts, cards, navigations and functional responses, and after satisfactory Beta-tests, launch for full usage in necessary quaters.",
-        stack: "VueJs, Tailwind-Css, JavaScript ",
+          " Sonvisage is an IOT start up, building hardware products for health care, environement devices, and agri-tech. At sonvisage, i served as a UI engineer, i was involved in building and maintaining of the frontend web application, which housed interaction from thousands of users over africa, making use of the organizational products, collectiong persona data, data's from campaigns, data from use of devices. At sonviage, aside re-building a large web app from scratch and integrating with RESTFul API for performance, i was involved in ensuring data security on the platform, ensuring all data's collected from users and products where safe, and the forms where not failing. I used Vuex for state management of complex data, also carried out data visulaization on the admin session. My role involved CI/CD for frontend development, as the build was progressive, and regualrly involved shipment of new features to enhance client needs and requests.",
         url: "https://sonvisage.com",
       },
     ],

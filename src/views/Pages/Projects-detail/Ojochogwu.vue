@@ -14,7 +14,7 @@
             :key="index"
           >
             <img
-            class="flex object-contain h-128 sx:h-full w-full"
+              class="flex object-contain h-128 sx:h-full w-full"
               :src="company.image"
               alt=""
             />
@@ -41,8 +41,7 @@ export default {
       {
         title: "Ojochogwu  — My Portfolios",
         details:
-          " This is actually my second portfolio, had a previous one which Looked quite cool as well.",
-        stack: "ReactJs, CSS, JavaScript",
+          " I have actually had about three iterations of my dev portolio, here is a highlight of the first two",
       },
     ],
   }),
