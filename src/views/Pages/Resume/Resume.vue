@@ -14,9 +14,12 @@
           >
             Github: Ojochogwu866
           </a>
-          <p class="text-xs border-b-2 border-work w-fit">
+          <a
+            href="mailto:dicksonojochogwu@gmail.com?subject=Hello Dickson"
+            class="text-xs border-b-2 border-work w-fit"
+          >
             dicksonojochogwu@gmail.com
-          </p>
+          </a>
           <p class="text-xs border-b-2 border-work w-fit">Abuja, Nigeria</p>
         </div>
         <div class="flex cursor-pointer sx:mt-3 sx:text-left">
@@ -123,9 +126,12 @@
               >
                 Github: Ojochogwu866
               </a>
-              <p class="text-xs border-b-2 border-work w-fit">
+              <a
+                href="mailto:dicksonojochogwu@gmail.com?subject=Hello Dickson"
+                class="text-xs border-b-2 border-work w-fit"
+              >
                 dicksonojochogwu@gmail.com
-              </p>
+              </a>
               <p class="text-xs border-b-2 border-work w-fit">Abuja, Nigeria</p>
             </div>
             <div class="text-work text-sm font-bold mt-4 sx:mt-6">

@@ -1,7 +1,7 @@
 <template>
   <div class="justify-center items-center flex flex-col mt-20 mb-0">
     <div
-      class="text-white text-sm sx:leading-6 tracking-wide sx:tracking-normal font-normal line sx:w-full w-1/2 m-auto text-center flex justify-center items-center"
+      class="text-border text-[14px] leading-8 sx:leading-7 tracking-wide sx:tracking-normal font-normal line sx:w-full w-1/2 m-auto text-center flex justify-center items-center"
     >
       I Would love to hear from you if you are interested in connecting with me
       or anything at all. Send Me a Message
@@ -9,7 +9,7 @@
     <div class="mt-8">
       <a
         href="mailto:dicksonojochogwu@gmail.com?subject=Hello Dickson"
-        class="bg-work py-3 text-xs font-normal px-6 text-white"
+        class="bg-work py-3 text-sm px-6 text-border"
         >Send Me a Messaage</a
       >
     </div>
@@ -26,8 +26,4 @@ export default {
   },
 };
 </script>
-<style scoped>
-.line {
-  font-size: 13px;
-}
-</style>
+<style scoped></style>
