@@ -167,14 +167,14 @@ ul li {
 </style>
 <script>
 import data from "./data";
-import { RESUME_PORT } from "@/config";
+import { RESUME_PORT } from "../../../../config";
 export default {
   components: { data },
   setup() {},
   data() {
     return {
       data,
-      fileUrl: `http://localhost:${RESUME_PORT}/Ojochogwu-resume.pdf?pdf=true`,
+      fileUrl: `${RESUME_PORT}/Ojochogwu-resume.pdf?pdf=true`,
       filePath: `@/public/Ojochogwu-Resume.pdf`,
       fileName: `Ojochogwu-resume.pdf`,
     };
