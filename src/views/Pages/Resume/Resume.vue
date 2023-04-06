@@ -174,7 +174,7 @@ export default {
   data() {
     return {
       data,
-      fileUrl: `${RESUME_PORT}/Ojochogwu-resume.pdf?pdf=true`,
+      fileUrl: `/Ojochogwu-resume.pdf?pdf=true`,
       filePath: `@/public/Ojochogwu-Resume.pdf`,
       fileName: `Ojochogwu-resume.pdf`,
     };
@@ -190,7 +190,6 @@ export default {
       const filePath = `./public/${this.fileName}`;
       const file = new File([blob], this.fileName, { type: "application/pdf" });
       const fileUrl = URL.createObjectURL(file);
-
       const link = document.createElement("a");
       link.href = fileUrl;
       link.download = this.fileName;
