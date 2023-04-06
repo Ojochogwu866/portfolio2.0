@@ -22,7 +22,7 @@ export default {
       period: "August 2021 - March 2022",
       role: "UI Engineer",
       points: [
-        "Rebuilt and managed the user interface for an IoT company's web application, Sonvisage, which collected data from millions of users.",
+        "Rebuilt and managed the user interface for an IoT company's web application, Sonvisage, which collected data from thousands of users.",
         "Wrote modern, clean, and manageable code for a major component of the app to ensure data collection and management were seamless.",
         "Utilized Vuex state management for secure and reliable management of large user data.",
         "Optimized the UI performance of the application by utilizing Vue.js, and only using necessary libraries, especially in the data visualization components.",

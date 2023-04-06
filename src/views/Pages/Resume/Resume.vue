@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-center items-center p-10 sx:p-3 bg-[#fff]">
-    <div class="w-10/12 sx:w-11/12 sx:p-5 bg-[#F5F4FC] p-16" ref="pdfElement">
+    <div class="w-10/12 sx:w-11/12 sx:p-5 bg-[#F5F4FC] p-16">
       <div class="w-full flex sx:flex-col justify-end items-end">
         <div class="space-y-2 flex sx:mt-3 flex-col sx:flex md:hidden">
           <a
@@ -29,7 +29,7 @@
             class=""
             ><img class="mr-2 w-4" src="@/assets/Images/linkedin(1).png"
           /></a>
-          <div class="flex cursor-pointer" @click="downloadPDF">
+          <div class="flex cursor-pointer" @click="downloadFile">
             <svg
               viewBox="0 0 1024 1024"
               width="18"
@@ -167,22 +167,36 @@ ul li {
 </style>
 <script>
 import data from "./data";
-import html2pdf from "html2pdf.js";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
-
+import { RESUME_PORT } from "@/config";
 export default {
-  components: { data, html2pdf, jsPDF, html2canvas },
+  components: { data },
   setup() {},
   data() {
     return {
       data,
-      pdfLink: require("@/assets/Images/ojochogwu-resume.pdf"),
+      fileUrl: `http://localhost:${RESUME_PORT}/Ojochogwu-resume.pdf?pdf=true`,
+      filePath: `@/public/Ojochogwu-Resume.pdf`,
+      fileName: `Ojochogwu-resume.pdf`,
     };
   },
   methods: {
     call() {
       window.open("tel:+2347054700832");
+    },
+    async downloadFile() {
+      const response = await fetch(this.fileUrl);
+      const blob = await response.blob();
+
+      const filePath = `./public/${this.fileName}`;
+      const file = new File([blob], this.fileName, { type: "application/pdf" });
+      const fileUrl = URL.createObjectURL(file);
+
+      const link = document.createElement("a");
+      link.href = fileUrl;
+      link.download = this.fileName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     },
   },
 };
