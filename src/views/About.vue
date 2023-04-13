@@ -67,7 +67,7 @@ export default {
   opacity: 0;
 }
 .left-0 {
-  font-family: Open Sauce, arial, sans-serif;
+  
   letter-spacing: -10px;
   font-size: 7rem;
   line-height: 85px;
