@@ -9,7 +9,7 @@
         </div>
         <div class="flex flex-row justify-center"></div>
         <div
-          class="text-[15px] text-border text-left mt-2 leading-7 sx:leading-6 line"
+          class="text-[14px] text-border text-left mt-2 leading-7 sx:leading-7 line"
         >
           {{ project.details }}
         </div>
