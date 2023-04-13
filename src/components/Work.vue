@@ -20,8 +20,8 @@
         their user interface from scratch, and contributed to other projects, by
         writing code and carrying out code reviews. <br />In the last one year,
         i have been involved in mentoring junior developers in javascript,
-        training and helping to build their knowledge and exposition on the
-        understanding javascript from scratch to implementation.
+        training and helping to build their knowledge, helping them in
+        understanding javascript from scratch.
       </p>
     </div>
     <div
