@@ -37,6 +37,13 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.overflow-x-scroll::webkit-scrollbar{
+display: none
+}
+.overflow-x-scroll{
+-ms-overflow-style: none; /* IE and Edge */
+scrollbar-width: none;
+}
 .relative::after {
   position: absolute;
   content: "";
