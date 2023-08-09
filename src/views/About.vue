@@ -10,9 +10,7 @@
         Proficient in core JavaScript, frameworks, pixel-perfect UI development,
         and building RESTful APIs with Node.js. Proven track record of
         delivering high-quality solutions on time. Passionate about ongoing
-        learning and professional development. I design and implement high
-        quality web-based javascript applications that are scalable and user
-        friendly, by applying my knowledge in usage of my tech skills,
+        learning and professional development. I design and implement high-quality web-based javascript applications that are scalable and user-friendly, by applying my knowledge in usage of my tech skills,
         stack-wise, and all other required knowledge and experience.
       </div>
     </div>
