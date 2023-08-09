@@ -18,12 +18,12 @@
     </div>
     <div class="sx:w-full w-2/3">
       <div
-        class="left-0 ml-6 sx:ml-0 overflow-y-hidden w-full overflow-x-scroll sx:scrollbar sx:scrollbar-none text-header text-left tracking-tighter font-bold opacity-30"
+        class="left-0 ml-6 sx:ml-0 overflow-y-hidden w-full overflow-x-scroll sx:scrollbar scrollbar-none text-header text-left tracking-tighter font-bold opacity-30"
       >
         – FRONTEND
       </div>
       <div
-        class="left-0 dev ml-6 sx:ml-0 w-full overflow-y-hidden overflow-x-scroll sx:scrollbar sx:scrollbar-none text-header text-left tracking-tighter font-bold opacity-30"
+        class="left-0 dev ml-6 sx:ml-0 w-full overflow-y-hidden overflow-x-scroll sx:scrollbar scrollbar-none text-header text-left tracking-tighter font-bold opacity-30"
       >
         –DEVELOPER
       </div>
