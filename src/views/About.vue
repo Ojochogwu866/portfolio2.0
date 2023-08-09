@@ -10,20 +10,18 @@
         Proficient in core JavaScript, frameworks, pixel-perfect UI development,
         and building RESTful APIs with Node.js. Proven track record of
         delivering high-quality solutions on time. Passionate about ongoing
-        learning and professional development. I design and implement high
-        quality web-based javascript applications that are scalable and user
-        friendly, by applying my knowledge in usage of my tech skills,
+        learning and professional development. I design and implement high-quality web-based javascript applications that are scalable and user-friendly, by applying my knowledge in usage of my tech skills,
         stack-wise, and all other required knowledge and experience.
       </div>
     </div>
     <div class="sx:w-full w-2/3">
       <div
-        class="left-0 ml-6 sx:ml-0 overflow-y-hidden w-full overflow-x-scroll sx:scrollbar sx:scrollbar-none text-header text-left tracking-tighter font-bold opacity-30"
+        class="left-0 ml-6 sx:ml-0 overflow-y-hidden w-full overflow-x-scroll sx:scrollbar scrollbar-none text-header text-left tracking-tighter font-bold opacity-30"
       >
         – FRONTEND
       </div>
       <div
-        class="left-0 dev ml-6 sx:ml-0 w-full overflow-y-hidden overflow-x-scroll sx:scrollbar sx:scrollbar-none text-header text-left tracking-tighter font-bold opacity-30"
+        class="left-0 dev ml-6 sx:ml-0 w-full overflow-y-hidden overflow-x-scroll sx:scrollbar scrollbar-none text-header text-left tracking-tighter font-bold opacity-30"
       >
         –DEVELOPER
       </div>
